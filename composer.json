@@ -1,0 +1,20 @@
+{
+    "name": "lpks/local-elfinder",
+    "description": "Local elfinder connector",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyễn Hải Quang",
+            "email": "haiquang9994@gmail.com"
+        }
+    ],
+    "require": {
+        "barryvdh/elfinder-flysystem-driver": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lpks\\LocalElfinder\\": "src/"
+        }
+    }
+}
